@@ -17,10 +17,6 @@ class MicropostsController < ApplicationController
     @micropost = Micropost.new
   end
 
-  # GET /microposts/1/edit
-  def edit
-  end
-
   # POST /microposts
   # POST /microposts.json
   def create
@@ -37,6 +33,10 @@ class MicropostsController < ApplicationController
     end
   end
 
+  # GET /microposts/1/edit
+  def edit
+  end
+  
   # PATCH/PUT /microposts/1
   # PATCH/PUT /microposts/1.json
   def update

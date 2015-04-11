@@ -13,3 +13,115 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: #c79dd7;
+  color: #363b74;
+  font-family: 'Crafty Girls', cursive;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, td {
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.browse ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+ /* text-align: right;*/
+}
+
+.browse li {
+  color: #6b4c75;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 10px 12px;
+  text-decoration: none;
+  text-align: right;
+}
+.browse li:first-child {
+  text-align: left;
+  font-weight: 00;
+}
+a {
+  text-decoration: none;
+  color: #6b4c75;
+}
+a:hover {
+  color: #ef4f91;
+}
+div.main {
+  text-align: center;
+  margin: auto;
+}
+table {
+  text-align: left;
+  margin: auto;
+}
+td {
+  padding-right: 20px;
+  border: solid;
+}
+
+/*
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: #ef4f91;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}*/
